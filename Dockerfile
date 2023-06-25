@@ -1,5 +1,5 @@
-FROM ubuntu:bionic
-MAINTAINER maltokyo <maltokyo@gmail.com>
+FROM ubuntu:rolling
+MAINTAINER yoga <yoga.november2000@gmail.com>
 
 ENV DRIVE_PATH="/mnt/gdrive"
 
