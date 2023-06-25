@@ -2,8 +2,8 @@ version: '3'
 services:
   google-drive-ocamlfuse:
     container_name: google-drive-ocamlfuse
-    image: maltokyo/docker-google-drive-ocamlfuse:0.7.26 # this version is in sync with the official google-drive-ocamlfuse release, starting at 0.7.19
-    restart: always
+    image: yoganovaindra/google-drive-ocamlfuse:latest # this version is in sync with the official google-drive-ocamlfuse release, starting at 0.7.19
+    restart: unless-stopped
     environment:
       # below are must have for first run only, after that comment them out!
       #CLIENT_ID: "YOUR_CLIENT_ID"
