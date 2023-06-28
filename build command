@@ -1,0 +1,1 @@
+docker buildx build --platform linux/amd64,linux/arm64 -t yoganovaindra/google-drive-ocamlfuse -t yoganovaindra/google-drive-ocamlfuse:v0.7.30 --push .
