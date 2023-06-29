@@ -8,7 +8,7 @@ https://github.com/astrada/google-drive-ocamlfuse
 
 ### Docker Hub page:
 
-[docker-google-drive-ocamlfuse](https://hub.docker.com/r/yoganovaindra/google-drive-ocamlfuse)
+[google drive ocamlfuse](https://hub.docker.com/r/yoganovaindra/google-drive-ocamlfuse)
 
 ### Environment Variables
 * `PUID`: User ID to run google-drive-ocamlfuse
