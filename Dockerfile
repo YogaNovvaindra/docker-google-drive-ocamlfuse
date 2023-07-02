@@ -1,4 +1,4 @@
-FROM ubuntu:rolling
+FROM ubuntu:latest
 MAINTAINER yoga <yoga.november2000@gmail.com>
 
 ENV DRIVE_PATH="/mnt/gdrive"

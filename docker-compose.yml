@@ -3,6 +3,7 @@ services:
   google-drive-ocamlfuse:
     container_name: google-drive-ocamlfuse
     image: yoganovaindra/google-drive-ocamlfuse:latest # this version is in sync with the official google-drive-ocamlfuse release, starting at 0.7.19
+    network_mode: bridge
     restart: unless-stopped
     environment:
       # below are must have for first run only, after that comment them out!
@@ -13,8 +14,8 @@ services:
     security_opt:
       - "apparmor:unconfined"
     cap_add:
-      - "mknod"
-      - "sys_admin"
+      - "MKNOD"
+      - "SYS_ADMIN"
     devices:
       - "/dev/fuse"
     volumes:
